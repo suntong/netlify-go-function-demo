@@ -28,7 +28,7 @@
         link.innerText = item.title;
         row.append(link);
         let d = new Date(item.date_published);
-        row.innerHTML += " " + toDate.format(d);
+        row.innerHTML += "<br/> " + toDate.format(d);
         listEls.push(row);
       }
       let el = document.getElementById("contents");
